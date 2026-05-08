@@ -11,9 +11,9 @@
          "discord":"Rangertheman"
       }
    ],
-   "version":"0.1.0",
+   "version":"0.1.1",
    "compatibility":{
-      "minimum":"133",
+      "minimum":"13",
       "verified":"14"
    },
    "esmodules": ["scripts/sd-cs.js"],
