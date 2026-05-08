@@ -11,7 +11,7 @@
          "discord":"Rangertheman"
       }
    ],
-   "version":"0.1.2",
+   "version":"0.1.5",
    "compatibility":{
       "minimum":"13",
       "verified":"14"
@@ -26,17 +26,6 @@
             "compatibility":{
                "minimum":"3.6.0",
                "verified":"4.0.4"
-            }
-         }
-      ],
-      "requires":[] ,
-      "recommended":[
-         {
-            "id":"shadowdark-campaign-stuff",
-            "type":"module",
-            "compatibility":{
-               "minimum":"0.6.0",
-               "verified":"0.7.0"
             }
          }
       ]
