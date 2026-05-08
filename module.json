@@ -1,0 +1,44 @@
+{
+   "id":"shadowdark-display-cards",
+   "title":"Shadowdark Display Cards",
+   "description":"A module to display items, tables and NPCs with a nice card in the journal.",
+   "url":"https://github.com/Rangertheman/shadowdark-display-cards",
+   "manifest":"https://raw.githubusercontent.com/Rangertheman/shadowdark-display-cards/master/module.json",
+   "download":"https://github.com/Rangertheman/shadowdark-display-cards/archive/master.zip",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"Rangertheman"
+      }
+   ],
+   "version":"0.1.0",
+   "compatibility":{
+      "minimum":"133",
+      "verified":"14"
+   },
+   "esmodules": ["scripts/sd-cs.js"],
+   "styles": ["styles/display-cards.css"],
+   "relationships":{
+      "systems":[
+         {
+            "id":"shadowdark",
+            "type":"system",
+            "compatibility":{
+               "minimum":"3.6.0",
+               "verified":"4.0.4"
+            }
+         }
+      ],
+      "requires":[] ,
+      "recommended":[
+         {
+            "id":"shadowdark-campaign-stuff",
+            "type":"module",
+            "compatibility":{
+               "minimum":"0.6.0",
+               "verified":"0.7.1"
+            }
+         }
+      ]
+   }
+}

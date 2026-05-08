@@ -1,0 +1,191 @@
+/* --- SYSTEM-REGLER --- */
+div[class*="sd-cs-display-"] + a, 
+div[class*="sd-cs-display-"] + br + a { 
+    display: none !important; 
+}
+
+/* --- GEMENSAMMA KORT-REGLER --- */
+.sd-cs-card {
+    margin: 1rem 0;
+    border: 2px solid #000;
+    background: #f4f1ea;
+    color: #000;
+    font-family: "Signika", sans-serif;
+}
+
+.sd-cs-card-header {
+    background: #000;
+    color: #fff;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-link {
+    color: #fff !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.header-link:hover {
+    text-shadow: 0 0 5px #fff;
+}
+
+.sd-cs-card-body {
+    padding: 10px 15px;
+}
+
+/* --- TABELLER --- */
+.sd-cs-table {
+    width: 100%;
+    border: 2px solid #000 !important;
+    background: #f4f1ea !important;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    color: #000 !important;
+}
+
+.sd-cs-table th {
+    background: #000 !important;
+    color: #fff !important;
+    padding: 10px 12px !important;
+}
+
+/* Tvinga bort fetstil från alla rader i tbody */
+.sd-cs-table tbody tr td,
+.sd-cs-table tbody tr td * {
+    font-weight: normal !important;
+}
+
+/* Behåll fetstil enbart för räckvidds-kolumnen */
+.sd-cs-table td.rng {
+    width: 50px;
+    font-weight: bold !important;
+    border-right: 1px solid #000 !important;
+    text-align: center;
+    background: rgba(0,0,0,0.05);
+}
+
+.sd-cs-roll-table-btn {
+    background: #e6e2d5 !important;
+    color: #000 !important;
+    border: 2px solid #000 !important;
+    padding: 4px 14px !important;
+    font-size: 0.85em !important;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    font-family: "Signika", sans-serif;
+    font-weight: 800 !important;
+    box-shadow: 2px 2px 0px #000;
+    pointer-events: all !important;
+    transition: all 0.1s ease;
+}
+
+.sd-cs-roll-table-btn:hover {
+    background: #fff !important;
+    box-shadow: 3px 3px 0px #000;
+    transform: translate(-1px, -1px);
+}
+
+.sd-cs-roll-table-btn:active {
+    box-shadow: none;
+    transform: translate(1px, 1px);
+}
+
+.sd-cs-roll-table-btn i {
+    margin-right: 6px;
+    font-size: 1.1em;
+}
+
+/* --- NPC-KORT --- */
+.sd-cs-npc-description {
+    padding: 10px 15px;
+    background: #f4f1ea;
+    border-bottom: 1px solid #000;
+    font-style: italic !important;
+}
+
+.sd-cs-npc-description, 
+.sd-cs-npc-description p, 
+.sd-cs-npc-description span,
+.sd-cs-npc-description i {
+    font-style: italic !important;
+    margin: 0 !important;
+}
+
+.sd-cs-display-npc-container .sd-cs-npc-master-stats {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    background: #000 !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 10px 0 5px 0 !important;
+}
+
+.sd-cs-display-npc-container .sd-cs-npc-sub-stats-row {
+    background: #000 !important;
+    color: #fff !important;
+    padding: 5px 15px 12px 15px !important;
+    border-bottom: 1px solid #000 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.sd-cs-display-npc-container .sd-cs-npc-sub-stats-row span {
+    font-size: 1.1em !important;
+}
+
+.sd-cs-display-npc-container .stat-box {
+    flex: 1 !important;
+    font-size: 1.1em !important;
+}
+
+.sd-cs-display-npc-container .stat-box b {
+    font-size: 0.8em !important;
+    text-transform: uppercase !important;
+}
+
+.sd-cs-display-npc-container .stat-divider {
+    width: 2px !important;
+    height: 30px !important;
+    background: #555 !important;
+    margin: 0 8px !important;
+}
+
+.sd-cs-display-npc-container .section-label {
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: 0.85em !important;
+    border-bottom: 1px solid #000 !important;
+    margin: 12px 0 6px 0 !important;
+    display: block !important;
+}
+
+.sd-cs-display-npc-container .entry {
+    display: block !important;
+    margin-bottom: 4px !important;
+    line-height: 1.3 !important;
+    font-size: 0.95em !important;
+}
+
+.sd-cs-display-npc-container .entry b {
+    text-transform: uppercase !important;
+}
+
+/* --- ÖVRIGT --- */
+.inline-roll {
+    background: #d4d0c0 !important;
+    border: 1px solid #666 !important;
+    padding: 0 2px !important;
+    font-weight: bold !important;
+}
+
+.sd-cs-card-body a.content-link {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    padding: 0 2px;
+    background: rgba(0,0,0,0.05);
+}
