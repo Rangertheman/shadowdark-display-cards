@@ -11,7 +11,7 @@
          "discord":"Rangertheman"
       }
    ],
-   "version":"0.1.1",
+   "version":"0.1.2",
    "compatibility":{
       "minimum":"13",
       "verified":"14"
@@ -36,7 +36,7 @@
             "type":"module",
             "compatibility":{
                "minimum":"0.6.0",
-               "verified":"0.7.1"
+               "verified":"0.7.0"
             }
          }
       ]
